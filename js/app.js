@@ -11,6 +11,7 @@ const formularioInput = document.querySelector(
   "#formulario-cita input[type='submit']"
 );
 
+
 // Eventos
 pacienteInput.addEventListener("change", datosCita);
 propietarioInput.addEventListener("change", datosCita);
@@ -19,6 +20,8 @@ fechaInput.addEventListener("change", datosCita);
 sintomasInput.addEventListener("change", datosCita);
 formulario.addEventListener("submit", submitCita);
 let editando = false;
+
+
 
 // Objeto de cita
 const citaObj = {
